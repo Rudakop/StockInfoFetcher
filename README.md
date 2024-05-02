@@ -15,7 +15,7 @@
 After obtaining your API key from FinnHub, perform the following steps to configure your application:
 1. Open the `appsettings.json` file located in the root directory of the project.
 2. Replace the placeholder `your_api_key_here` with your actual FinnHub API key:
-    ```json
+    ```
     {
       "FinnhubApiKey": "your_actual_api_key_here"
     }
@@ -23,8 +23,7 @@ After obtaining your API key from FinnHub, perform the following steps to config
 
 ### Clone the Repository
 To get started with the StockInfoApp, clone the source code from the repository or download the zip file to your local machine. Use the following command to clone:
-```bash
-git clone https://github.com/Rudakop/StockInfoApp
+```git clone https://github.com/Rudakop/StockInfoApp```
 
 
 ## Running the Application
@@ -33,18 +32,17 @@ To run the application, navigate to the project directory where the .csproj file
 
 ## Build the Application
 Compile the application to ensure there are no compilation errors:
-
-````dotnet build````
+   ```dotnet build```
 
 
 ## Run the Application
 Execute the application with a stock symbol as the command-line argument:
 
-````dotnet run -- <StockSymbol>````
+```dotnet run -- <StockSymbol>```
 
 Replace **<StockSymbol>** with the actual stock symbol you want to query, such as **MSFT** for Microsoft. For example:
 
-````dotnet run -- MSFT````
+```dotnet run -- MSFT```
 
 This command fetches and displays information about Microsoft stock.
 
