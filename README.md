@@ -4,7 +4,6 @@
 ## Overview
 `StockInfoApp` is a .NET Core console application that fetches and displays stock information based on a symbol provided as a command-line argument. It utilizes the FinnHub API to retrieve stock details like the symbol and description.
 
-
 ## Prerequisites
 - .NET Core 3.1 SDK or later
 - Visual Studio 2019 or any compatible IDE that supports .NET Core development

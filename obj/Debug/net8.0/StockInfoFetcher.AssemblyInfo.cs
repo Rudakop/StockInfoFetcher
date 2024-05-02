@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StockInfoFetcher")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4af35473baa82eaf500cee447f9fe4a21c6d2f21")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+22fee38a6c59e23a68decde09197c032d7a209d7")]
 [assembly: System.Reflection.AssemblyProductAttribute("StockInfoFetcher")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StockInfoFetcher")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -24,6 +24,7 @@ namespace StockInfoApp
 
             httpClient.DefaultRequestHeaders.Add("X-Finnhub-Token", apiKey);
 
+
             var stockSymbol = args.Length > 0 ? args[0] : "MSFT"; 
 
             try
